@@ -31,7 +31,7 @@ header{
 }
 
 header nav {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
@@ -118,25 +118,17 @@ main{
 
 .bg-img{
   position: absolute;
-  width: 2800px;
-  top: calc(50% - 390px);
+  width: 3200px;
+  top: calc(50% - 450px);
   left: calc(50% + 10px);
   z-index: 1;
 }
 
 .fog-1{
   position: absolute;
-  z-index: 21;
-  width: 1600px;
-  top: calc(100% - 355px);
-}
-
-.mountain-10 { 
-  position: absolute;
-  z-index: 1;
-  top: calc(50% + 69px);
-  width: 870px;
-  left: calc(50% + 230px);
+  z-index: 18;
+  width: 3840px;
+  top: calc(100%);
 }
 
 .fog-2 {
@@ -144,33 +136,65 @@ main{
   z-index: 4;
   top: calc(50% + 95px);
   left: calc(50% + 7px);
-  width: 1833px;
+  width: 2333px;
 }
-
-.mountain-9 {
-  position: absolute;
-  z-index: 5;
-  top: calc(50% + 119px);
-  width: 463px;
-  left: calc(50% - 457px);
-}
-
-.mountain-8 {
-  position: absolute;
-  z-index: 6;
-  top: calc(50% + 96px);
-  width: 786px;
-  left: calc(50% - 202px);
-} 
 
 .fog-3 {
   position: absolute;
   z-index: 7;
   top: calc(50% + 171px);
   left: calc(50% + 29px);
-  width: 449px
+  width: 749px
 }
- 
+
+.fog-4{
+  position: absolute;
+  z-index: 11;
+  top: calc(50% + 242px);
+  left: calc(50% - 64px);
+  width: 843px;
+}
+
+.fog-5 {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% + 149px);
+  left: calc(50% - 28px);
+  width: 635px;
+}
+
+.fog-6 {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% + 127px);
+  left: calc(50% - 30px);
+  width: 2300px;
+}
+
+.mountain-10 { 
+  position: absolute;
+  z-index: 6;
+  top: calc(50% + 69px);
+  width: 920px;
+  left: calc(50% + 230px);
+}
+
+.mountain-9 {
+  position: absolute;
+  z-index: 9;
+  top: calc(50% + 190px);
+  width: 573px;
+  left: calc(50% - 587px);
+}
+
+.mountain-8 {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% + 106px);
+  width: 986px;
+  left: calc(50% - 242px);
+} 
+
 .mountain-7 {
   position: absolute;
   z-index: 8;
@@ -182,78 +206,55 @@ main{
 .mountain-6 {
   position: absolute;
   z-index: 10;
-  top: calc(50% + 86.5px);
-  width: 383.5px;
-  left: calc(50% + 590px);
+  top: calc(50% + 126.5px);
+  width: 423.5px;
+  left: calc(50% + 610px);
 }
- 
-.fog-4{
-  position: absolute;
-  z-index: 11;
-  top: calc(50% + 242px);
-  left: calc(50% - 64px);
-  width: 543px;
-}
- 
+
 .mountain-5 {
   position: absolute;
-  z-index: 12;
+  z-index: 17;
   top: calc(50% + 269px);
   width: 583px;
   left: calc(50% + 130px);
 }
- 
-.fog-5 {
-  position: absolute;
-  z-index: 13;
-  top: calc(50% + 149px);
-  left: calc(50% - 28px);
-  width: 1435px;
-}
- 
 .mountain-4 {
   position: absolute;
-  z-index: 14;
-  top: calc(50% + 221px);
-  width: 717px;
-  left: calc(50% - 381.5px);
+  z-index: 17;
+  top: calc(50% + 328px);
+  width: 1027px;
+  left: calc(50% - 490.5px);
 }
  
 .mountain-3 {
   position: absolute;
   z-index: 15;
-  top: calc(50% + 133px);
-  left: calc(50% + 736px);
+  top: calc(50% + 90px);
+  left: calc(50% + 786px);
   width: 419px;
 }
  
-.fog-6 {
-  position: absolute;
-  z-index: 16;
-  top: calc(50% + 177px);
-  left: calc(50% - 30px);
-  width: 1418px;
-}
+
  
 .mountain-2{
   position: absolute;
   z-index: 17;
-  top: calc(50% + 188px);
+  top: calc(50% + 214px);
   left: calc(50% + 412px);
-  width: 625px;
+  width: 725px;
 }
  
 .mountain-1 {
   position: absolute;
   z-index: 18;
-  top: calc(50% + 91.5px);
-  left: calc(50% - 601px);
-  width: 450px;
+  top: calc(50% + 25px);
+  left: calc(50% - 815px);
+  width: 650px;
 }
 .text{
   position: absolute;
   z-index: 9;
-  top: calc(50% - 130px);
+  top: calc(50% - 185px);
   left: 50% ;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -264,12 +265,12 @@ main{
 
 .text h2{
   font-weight: 100;
-  font-size: 6.5rem;
+  font-size: 8.5rem;
 }
  
 .text h1{
   font-weight: 800;
-  font-size: 8rem;
+  font-size: 10rem;
   line-height: 0.33;
 }
 
@@ -278,13 +279,13 @@ main{
   z-index: 19;
   top: 0;
   right: 0;
-  width: 595px;
+  width: 895px;
   pointer-events: none;
 }
 
 .black-shadow{
   position: absolute;
-  z-index: 20;
+  z-index: 0;
   top: 0;
   right: 0;
   width: 100%;
