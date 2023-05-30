@@ -111,8 +111,7 @@ main{
 }
 
 .parallax{
-  pointer-events: none;
-  transform: translate(-50%, -50%);
+  pointer-events:none;
   position: absolute;
 }
 
@@ -127,7 +126,7 @@ main{
 .fog-1{
   position: absolute;
   z-index: 18;
-  width: 3840px;
+  width: 4140px;
   top: calc(100%);
 }
 
@@ -214,7 +213,7 @@ main{
 .mountain-5 {
   position: absolute;
   z-index: 17;
-  top: calc(50% + 269px);
+  top: calc(50% + 289px);
   width: 583px;
   left: calc(50% + 130px);
 }
@@ -233,9 +232,7 @@ main{
   left: calc(50% + 786px);
   width: 419px;
 }
- 
 
- 
 .mountain-2{
   position: absolute;
   z-index: 17;
@@ -243,7 +240,7 @@ main{
   left: calc(50% + 412px);
   width: 725px;
 }
- 
+
 .mountain-1 {
   position: absolute;
   z-index: 18;
@@ -260,7 +257,7 @@ main{
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  pointer-events: auto;
+  pointer-events:auto;
 }
 
 .text h2{
