@@ -113,6 +113,7 @@ main{
 .parallax{
   pointer-events:none;
   position: absolute;
+  transition: 0.45s cubic-bezier(.2,.49,.32,.99)
 }
 
 .bg-img{
