@@ -165,9 +165,9 @@ main{
 .fog-6 {
   position: absolute;
   z-index: 6;
-  top: calc(50% + 127px);
+  top: calc(50% + 227px);
   left: calc(50% - 30px);
-  width: 2300px;
+  width: 2600px;
 }
 
 .mountain-10 { 
@@ -229,8 +229,8 @@ main{
   position: absolute;
   z-index: 15;
   top: calc(50% + 90px);
-  left: calc(50% + 786px);
-  width: 419px;
+  left: calc(50% + 846px);
+  width: 519px;
 }
 
 .mountain-2{
