@@ -170,6 +170,14 @@ main{
   left: calc(50% - 30px);
   width: 2600px;
 }
+.fog-7 {
+  position: absolute;
+  z-index: 16;
+  width: 820px;
+  top: calc(50% + 337px);
+  left: calc(50% - 90px);
+}
+
 
 .mountain-10 { 
   position: absolute;
